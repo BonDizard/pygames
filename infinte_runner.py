@@ -4,9 +4,9 @@ import random
 pygame.init()
 
 #game constant
-WHITE=(255,255,255)
-BLACK=(0,0,0)
-GREEN=(0,255,0)
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+GREEN = (0,255,0)
 WIDTH = 450
 HEIGTH = 300
 red = (255,0,0)
@@ -15,20 +15,20 @@ yellow = (255, 255 , 0)
 
 
 #game variables
-score =0
-player_x=50
-player_y=200
+score = 0
+player_x = 50
+player_y = 200
 gravity = 1
 Y_change = 0
-x_change =0
+x_change = 0
 obstacles = [300, 450 , 600]
-obstacle_speed =3
+obstacle_speed = 3
 active = False
 
 screen = pygame.display.set_mode((WIDTH, HEIGTH))
 pygame.display.set_caption("Infinte Runner")
 background=BLACK
-FPS=60
+FPS = 60
 font = pygame.font.Font("freesansbold.ttf", 16)
 timer = pygame.time.Clock()
 
